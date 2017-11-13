@@ -1,6 +1,5 @@
 package com.lee.fitalarm.activity;
 
-import android.content.Intent;
 import android.os.Bundle;
 
 import com.lee.fitalarm.R;
@@ -34,7 +33,7 @@ public class MainActivity extends BaseActivity {
 
     @Override
     protected void onDestroy () {
-git
+
         super.onDestroy();
     }
 
@@ -49,11 +48,4 @@ git
 
         super.onRestart();
     }
-
-    @Override
-    protected void onNewIntent (Intent intent) {
-
-        super.onNewIntent(intent);
-    }
-
 }
